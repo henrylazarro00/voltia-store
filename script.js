@@ -7,8 +7,8 @@
 // en formato internacional, sin +, espacios ni guiones.
 //
 // Ejemplo:
-// const WHATSAPP_NUMBER = "535XXXXXXXX";
-const WHATSAPP_NUMBER = "TU_NUMERO_AQUI";
+// const WHATSAPP_NUMBER = "5356582525";
+const WHATSAPP_NUMBER = "5356582525";
 
 
 // ==========================================
