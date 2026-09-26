@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>VOLTIA | Baterías</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        VOLTIA<span>⚡</span>
+    </div>
+
+    <nav>
+
+        <a href="../index.html">Inicio</a>
+        <a href="index.html">Energía</a>
+        <a href="estaciones.html">Estaciones</a>
+        <a href="inversores.html">Inversores</a>
+        <a href="paneles.html">Paneles</a>
+        <a href="baterias.html">Baterías</a>
+        <a href="combos.html">Combos</a>
+
+    </nav>
+
+    <button class="cart-button">
+        🛒 Carrito
+        <span id="cartCount">0</span>
+    </button>
+
+</header>
+
+
+<main>
+
+<section class="page-header">
+
+    <a href="index.html">
+        ← Volver a Energía
+    </a>
+
+    <h1>Baterías</h1>
+
+    <p>
+        Sistemas de almacenamiento para instalaciones
+        solares y respaldo energético.
+    </p>
+
+</section>
+
+
+<section>
+
+    <div id="productContainer"></div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <p>© 2026 VOLTIA</p>
+
+</footer>
+
+
+<script src="../script.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    filteredProducts = products.filter(
+        product => product.category === "Baterías"
+    );
+
+    renderProducts();
+
+});
+
+</script>
+
+</body>
+</html>
